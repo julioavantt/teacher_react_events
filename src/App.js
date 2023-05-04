@@ -17,8 +17,9 @@ function App() {
     <BrowserRouter>
     <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Eventos</Navbar.Brand>
+        <NavLink to="/"><Navbar.Brand>Eventos</Navbar.Brand></NavLink>
           <Nav className="me-auto">
+            {/* <Nav.Link href="/handle">Link bootstrap</Nav.Link> */}
             <NavLink to="/">Evento Inline</NavLink>
             <NavLink to="/handle">Controlador de evento</NavLink>
             <NavLink to="/handleWithEvent">Controlador de eventos con interfaz Event</NavLink>
