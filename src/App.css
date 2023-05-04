@@ -9,9 +9,10 @@ div#box {
 }
 
 a {
-  padding: 0.8rem;
+  padding: 0.85rem;
   color: white;
   text-decoration: none;
+  font-size: 0.95rem
 }
 
 a.active {
