@@ -1,0 +1,23 @@
+body {
+  overflow: hidden;
+}
+
+div#box {
+  overflow: auto;
+  height: 75px;
+  font-size: 1.5rem;
+}
+
+a {
+  padding: 0.8rem;
+  color: white;
+  text-decoration: none;
+}
+
+a.active {
+  color: aqua;
+}
+
+iframe {
+  height: calc(100vh - 72px);
+}
