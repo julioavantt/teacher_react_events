@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
 body {
   overflow: hidden;
 }
@@ -15,10 +21,34 @@ a {
   font-size: 0.95rem
 }
 
-a.active {
+a.active, a:hover {
   color: aqua;
 }
 
 iframe {
   height: calc(100vh - 72px);
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: #212529;
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+  animation-duration: 5s;
+  animation-name: changeColor;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changeColor {
+  from {
+    color: aqua;
+  }
+
+  to {
+    color: white;
+  }
 }

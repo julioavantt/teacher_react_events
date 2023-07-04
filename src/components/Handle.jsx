@@ -6,7 +6,7 @@ export const Handle = () => {
   const [counter, setCounter] = useState(0);
 
   const handleClick = () => setCounter((prev) => prev + 3);
-  
+
   const handleScroll = () => alert("SCROLLED");
 
   return (
@@ -17,10 +17,16 @@ export const Handle = () => {
       </Button>
       <hr />
       <mark>Total: {counter}</mark>
+
       <hr />
       <div id="box" onScroll={handleScroll}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores mollitia ullam doloremque, expedita natus debitis voluptatibus nam tempore, fugiat sed in reprehenderit aspernatur provident reiciendis illum ipsam odit, impedit nostrum! Amet, qui unde sit officia quis
-        minima quaerat ut, dolores deserunt nemo corrupti, aperiam totam nam eligendi fugit excepturi exercitationem ex? Unde rerum commodi vitae, quasi ducimus
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+        mollitia ullam doloremque, expedita natus debitis voluptatibus nam
+        tempore, fugiat sed in reprehenderit aspernatur provident reiciendis
+        illum ipsam odit, impedit nostrum! Amet, qui unde sit officia quis
+        minima quaerat ut, dolores deserunt nemo corrupti, aperiam totam nam
+        eligendi fugit excepturi exercitationem ex? Unde rerum commodi vitae,
+        quasi ducimus
       </div>
     </Container>
   );
