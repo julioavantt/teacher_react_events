@@ -18,7 +18,7 @@
 - 🧑‍🏫 Creador de [Junior Pride](https://www.youtube.com/@juniorpride)
   <br>
 
-## Este repo trata sobre: React Router Dom en React.
+## Este repo trata sobre: Eventos en React.
 
 - Esta aplicación está creada con Create React App.
 - Clonarla ejecutando git clone https://github.com/julioavantt/teacher_react_events.git
