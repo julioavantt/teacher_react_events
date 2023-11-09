@@ -1,15 +1,15 @@
 import { useState } from "react";
 import Container from "react-bootstrap/Container";
 
-const ComponentChild = ({ as = "button", conClick }) => {
-  const Tag = as; //div
+const ComponentChild = ({ mas = "button", conClick }) => {
+  const Tag = mas; // a
   return <Tag onClick={conClick}>Click</Tag>;
 };
 
-export const Poliformismo = () => {
+export const Polimorfismo = () => {
   const [componentType, setComponentType] = useState("div");
-  
-  const handleClick = () => alert("me clickeo mi hija")
+
+  const handleClick = () => alert("me clickeo mi hija");
 
   return (
     <Container className="mt-4">
@@ -20,8 +20,8 @@ export const Poliformismo = () => {
         <option value="a">A</option>
         <option value="div">DIV</option>
         <option value="button">BUTTON</option>
-      </select>    
-      <ComponentChild as={componentType} conClick={handleClick} />
+      </select>
+      <ComponentChild mas={componentType} conClick={handleClick} />
     </Container>
   );
 };

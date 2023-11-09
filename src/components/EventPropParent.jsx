@@ -7,9 +7,9 @@ export const EventPropParent = () => {
   const [counter, setCounter] = useState(0);
 
   const handleClick = () => setCounter((prev) => prev + 6);
-  
+
   //! Paso la función al hija/o como prop "clickeame"
-  
+
   return (
     <Container className="mt-4">
       <h1 className="mb-4">Pasar controlador como prop</h1>

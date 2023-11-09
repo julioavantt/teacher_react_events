@@ -7,6 +7,7 @@ export const HandleWithEvent = () => {
   const [inputValue, setInputValue] = useState("");
 
   const handleChange = (Event) => {
+    console.log(Event.target.value);
     setInputValue(Event.target.value);
   };
 

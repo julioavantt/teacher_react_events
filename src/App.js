@@ -8,7 +8,7 @@ import { EventoInline } from "./components/EventoInline";
 import { Handle } from "./components/Handle";
 import { HandleWithEvent } from "./components/HandleWithEvent";
 import { EventPropParent } from "./components/EventPropParent";
-import { Poliformismo } from "./components/Poliformismo";
+import { Polimorfismo } from "./components/Polimorfismo";
 import { Error404 } from "./components/Error404";
 import "./App.css";
 
@@ -27,7 +27,7 @@ function App() {
               Controlador de eventos con interfaz Event
             </NavLink>
             <NavLink to="/eventPropParent">Pasar controlador como prop</NavLink>
-            <NavLink to="/poliformismo">Polimorfismo (cambia forma)</NavLink>
+            <NavLink to="/polimorfismo">Polimorfismo (cambia forma)</NavLink>
           </Nav>
         </Container>
       </Navbar>
@@ -36,7 +36,7 @@ function App() {
         <Route path="/handle" element={<Handle />} />
         <Route path="/handleWithEvent" element={<HandleWithEvent />} />
         <Route path="/eventPropParent" element={<EventPropParent />} />
-        <Route path="/poliformismo" element={<Poliformismo />} />
+        <Route path="/polimorfismo" element={<Polimorfismo />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
       <footer bg="dark" variant="dark"><Container>Creado por Julio Avantt!</Container></footer>
