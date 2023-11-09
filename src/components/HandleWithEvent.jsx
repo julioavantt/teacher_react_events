@@ -6,9 +6,9 @@ import Button from "react-bootstrap/Button";
 export const HandleWithEvent = () => {
   const [inputValue, setInputValue] = useState("");
 
-  const handleChange = (Event) => {
-    console.log(Event.target.value);
-    setInputValue(Event.target.value);
+  const handleChange = (event) => {
+    console.log(event.target.value);
+    setInputValue(event.target.value);
   };
 
   return (

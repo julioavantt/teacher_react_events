@@ -27,7 +27,7 @@ function App() {
               Controlador de eventos con interfaz Event
             </NavLink>
             <NavLink to="/eventPropParent">Pasar controlador como prop</NavLink>
-            <NavLink to="/polimorfismo">Polimorfismo (cambia forma)</NavLink>
+            {/* <NavLink to="/polimorfismo">Polimorfismo (cambia forma)</NavLink> */}
           </Nav>
         </Container>
       </Navbar>
@@ -39,7 +39,9 @@ function App() {
         <Route path="/polimorfismo" element={<Polimorfismo />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
-      <footer bg="dark" variant="dark"><Container>Creado por Julio Avantt!</Container></footer>
+      <footer bg="dark" variant="dark">
+        <Container>Creado por Julio Avantt!</Container>
+      </footer>
     </BrowserRouter>
   );
 }
